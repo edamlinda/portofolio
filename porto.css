@@ -1,0 +1,77 @@
+body {
+  background-image: url(/compback1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.header-image__heart {
+  background-image: url(/heart.png);
+  width: 50rem;
+  height: 60rem;
+  position: relative;
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+  top: 0rem;
+  left: 0rem;
+  z-index: 3;
+  background-repeat: no-repeat;
+}
+
+.name {
+  position: absolute;
+  top: 10rem;
+  left: 2rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  -webkit-transform: rotate(-33deg);
+          transform: rotate(-33deg);
+}
+
+.first_letter {
+  color: #f1a415;
+  font-size: 5rem;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.nav {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: white;
+  background-size: cover;
+  position: -webkit-sticky;
+  position: sticky;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav__menu {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 0.1rem solid grey;
+  border-radius: 1em;
+  padding: 1rem;
+  padding-top: 1.5rem;
+  color: grey;
+}
+
+.nav__i {
+  font-size: 3rem;
+  padding-top: 1rem;
+  color: grey;
+}
+
+.header-image__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=porto.css.map */
