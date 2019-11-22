@@ -1,31 +1,30 @@
 .nav {
-//   width: 113rem;
+    width: 100%;
   justify-content: space-evenly;
-background-color: white;
-background-size: cover;
-  position: sticky;
+  background-color: white;
+  background-size: cover;
+  position: fixed;
   display: flex;
+  font-size: 3.5rem;
+  font-weight: bold;
+  z-index: 5;
+}
+.nav__menu {
+  // background-color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 0.1rem solid grey;
+  border-radius: 1em;
+  padding: 1rem;
+  padding-top: 1.5rem;
+  color: grey;
+}
 
-   
-
-    font-size: 3.5rem;
-    font-weight: bold;}
-  .nav__menu {
-    // background-color: red;
-    font-size: 1.5rem;
-    font-weight: bold;
-    border: 0.1rem solid grey;
-    border-radius: 1em;
-    padding: 1rem;
-    padding-top: 1.5rem;
-    color: grey;
-  }
-
-  .nav__i {
-    font-size: 3rem;
-    padding-top: 1rem;
-    color: grey;
-  }
+.nav__i {
+  font-size: 3rem;
+  padding-top: 1rem;
+  color: grey;
+}
 
 // .about_me {
 //     // background-color:  #f1a415;

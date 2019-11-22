@@ -1,5 +1,104 @@
-.header-image__wrapper {display: flex;
-justify-content: space-between;
-
+.background-image  {
+  background-image: url(/compback1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -2;
+  height: 60rem;
+  position: relative;
 }
 
+
+
+.header__content {
+  position: fixed;
+  top: 25rem;
+  left: 80rem;
+  z-index: 1;
+  font-size: 2rem;
+  transform: rotateZ(0deg) rotateY(-10deg) skew(-7deg, 0);
+  width: 21rem;
+    background-color: #fffff555;}
+
+  .header-content__wrapper {
+    perspective: 1000px;
+  }
+  .header__content:hover  {
+    transform: scale(1.2) rotateY(-10deg) skew(-7deg, 0);
+    font-weight: bold;
+  }
+  
+  li:nth-child(6) {
+    list-style: none;
+    margin-left: 12rem !important;
+    font-size: 1.2rem;
+  }
+
+
+
+
+.header-image__tab-mob {
+  // background-image: url(/tabmob.png);
+  width: 40rem;
+  height: 40rem;
+  position: fixed;
+  top: 34rem;
+  left: 10rem;
+  z-index: 1;
+  background-repeat: no-repeat;
+}
+
+// .header__content-klad {
+//   width: 10rem;
+//   height: 10rem;
+//   position: relative;
+//   // top: 54rem;
+//   // left: 92rem;
+//   z-index: 4;
+//   line-height: 1.5rem;
+//   text-align: center;
+// }
+
+// .klad__item {
+//   font-size: 2rem;
+//   font-family: "Indie Flower", cursive;
+//   // transform: rotate(20deg);
+//   transform: skew(35deg) rotate(59deg);
+// }
+
+.header__content-tablet {
+  position: fixed;
+  top: 40rem;
+  left: 20rem;
+  z-index: 1;
+  text-align: center;
+}
+
+.header-content-tablet__first-line {
+  font-size: 3rem;
+  color: rgb(113, 113, 163);
+  font-weight: bold;
+}
+
+.header-content-tablet__second-line {
+  font-size: 1.7rem;
+  color: rgb(241, 164, 21);
+  font-weight: bold;
+}
+
+.header__content-mobile {
+  position: fixed;
+  top: 44.5rem;
+  left: 11.5rem;
+  z-index: 1;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-family: fantasy;
+  color: rgb(104, 52, 4);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#txt {
+  padding-left: 2rem;
+}

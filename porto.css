@@ -1,31 +1,37 @@
-body {
-  background-image: url(/compback1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-}
-
 .header-image__heart {
-  background-image: url(/heart.png);
-  width: 50rem;
-  height: 60rem;
-  position: relative;
-  -webkit-transform: scale(0.6);
-          transform: scale(0.6);
-  top: 0rem;
-  left: 0rem;
+  background-image: url(/heart3.png);
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  top: 16rem;
+  left: 13rem;
   z-index: 3;
   background-repeat: no-repeat;
 }
 
+.header-image__heart:hover {
+  background-image: url(/heart2.png);
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  top: 16rem;
+  left: 13rem;
+  z-index: 1;
+  background-repeat: no-repeat;
+}
+
 .name {
-  position: absolute;
+  position: fixed;
   top: 10rem;
   left: 2rem;
   font-size: 3.5rem;
   font-weight: bold;
-  -webkit-transform: rotate(-33deg);
-          transform: rotate(-33deg);
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
 }
 
 .first_letter {
@@ -36,18 +42,19 @@ body {
 }
 
 .nav {
+  width: 100%;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   background-color: white;
   background-size: cover;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   font-size: 3.5rem;
   font-weight: bold;
+  z-index: 5;
 }
 
 .nav__menu {
@@ -66,12 +73,126 @@ body {
   color: grey;
 }
 
-.header-image__wrapper {
+.background-image {
+  background-image: url(/compback1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -2;
+  height: 60rem;
+  position: relative;
+}
+
+.header__content {
+  position: fixed;
+  top: 25rem;
+  left: 80rem;
+  z-index: 1;
+  font-size: 2rem;
+  -webkit-transform: rotateZ(0deg) rotateY(-10deg) skew(-7deg, 0);
+          transform: rotateZ(0deg) rotateY(-10deg) skew(-7deg, 0);
+  width: 21rem;
+  background-color: #fffff555;
+}
+
+.header-content__wrapper {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.header__content:hover {
+  -webkit-transform: scale(1.2) rotateY(-10deg) skew(-7deg, 0);
+          transform: scale(1.2) rotateY(-10deg) skew(-7deg, 0);
+  font-weight: bold;
+}
+
+li:nth-child(6) {
+  list-style: none;
+  margin-left: 12rem !important;
+  font-size: 1.2rem;
+}
+
+.header-image__tab-mob {
+  width: 40rem;
+  height: 40rem;
+  position: fixed;
+  top: 34rem;
+  left: 10rem;
+  z-index: 1;
+  background-repeat: no-repeat;
+}
+
+.header__content-tablet {
+  position: fixed;
+  top: 40rem;
+  left: 20rem;
+  z-index: 1;
+  text-align: center;
+}
+
+.header-content-tablet__first-line {
+  font-size: 3rem;
+  color: #7171a3;
+  font-weight: bold;
+}
+
+.header-content-tablet__second-line {
+  font-size: 1.7rem;
+  color: #f1a415;
+  font-weight: bold;
+}
+
+.header__content-mobile {
+  position: fixed;
+  top: 44.5rem;
+  left: 11.5rem;
+  z-index: 1;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-family: fantasy;
+  color: #683404;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#txt {
+  padding-left: 2rem;
+}
+
+.aboutme {
+  background-color: #d7d7ec;
+  z-index: 2;
+  height: 50rem;
+}
+
+.main__cards-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  z-index: 2;
+  padding-top: 20rem;
+}
+
+.main__cards-item {
+  width: 18rem;
+  height: 20rem;
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+  padding-top: 2rem;
+  -webkit-box-shadow: 10px 10px 20px 0 black;
+          box-shadow: 10px 10px 20px 0 black;
+  -webkit-transform: skewY(20);
+          transform: skewY(20);
+}
+
+.cards__content {
+  width: 10rem;
+  margin-left: 4rem;
 }
 /*# sourceMappingURL=porto.css.map */

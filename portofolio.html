@@ -3,20 +3,20 @@
 
 <head>
   <meta charset="UTF-8">
-
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="porto.css">
+  <script src="./javasheet.js"></script>
   <integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 
-<body>
+<body onload="startTime()">
   <nav>
     <ul class="nav">
-      <!-- <li class="nav__name"><a href=""></a><span class="first_letter">L</span>inda <span class="first_letter">E</span>dam</li> -->
       <li class="nav__i"><a href=""></a><i class="fa fa-bars"></i></li>
       <li class="nav__menu"><a href=""></a>HOME</li>
       <li class="nav__menu"><a href=""></a>ABOUT ME</li>
@@ -26,25 +26,79 @@
     </ul>
   </nav>
 
+  <header class="background-image">
 
-  <header>
     <h1 class="name"><span class="first_letter">L</span>inda <span class="first_letter">E</span>dam</h1>
 
-    <div class="header-image__wrapper">
-      <!-- <img class="header-image__heart" src="/heart.png" alt="fotoheart"> -->
-      <!-- <img src="/compback1.jpg" alt="foto" width="1600px" height="785px"> -->
-    </div>
     <div class="header-image__heart"></div>
-    <div class="header__content">
-    <ul>
-      <li>Leergierig</li>
-     <li>Creatief</li>
-    <li>Doelgericht</li>
-  </ul>
-</div>
+    <div class="header-content__wrapper">
+      <div class="header__content">
+        <ul>
+          <li>Leergierig</li>
+          <li>Creatief</li>
+          <li>Doelgericht</li>
+          <li>Ondernemend</li>
+          <li>Teamplayer</li>
+          <li id="txt"></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="header-image__tab-mob">
+
+      <img src="/tabmob.png" alt="afbeelding" width="350px" height="350px">
+    </div>
+    <div class="header__content-klad">
+      <p class="klad__item">To Do</p>
+      <p class="klad__item">List...</p>
+    </div>
+
+    <div class="header__content-tablet">
+      <p class="header-content-tablet__first-line">I'm</p>
+      <p class="header-content-tablet__second-line">responsive</p>
+    </div>
+
+    <div class="header__content-mobile">
+      <p>YES!</p>
+    </div>
 
   </header>
 
+  
+    <section class="aboutme">
+
+      <div class="main__cards-wrapper">
+        <div class="main__cards-item">
+          <h1>Leergierig</h1>
+          <p class="cards__content">Ik vind het leuk om nieuwe dingen te leren. Wanneer ik werkzaamheden moet uitvoeren wil ik niet alleen
+            weten hoe ik een taak moet uitvoeren maar ook waarom.</p>
+
+        </div>
+        <div class="main__cards-item">
+          <h1>Creatief</h1>
+          <p class="cards__content">Door mijn creatieve inslag kijk ik soms heel anders tegen bepaalde situaties aan. Hierdoor ontstaan soms
+            leuke gesprekken en verrassende nieuwe inzichten.</p>
+        </div>
+        <div class="main__cards-item">
+          <h1>Doelgericht</h1>
+          <p class="cards__content">Mijn motto is: “Wie A zegt moet ook B zeggen”. Wanneer ik een doel voor ogen heb doe ik ook alles aan om
+            het gewenste eindresultaat te bereiken.</p>
+        </div>
+        <div class="main__cards-item">
+          <h1>Ondernemend</h1>
+          <p class="cards__content">hbj hbhj bsdchjb sdhcbch sbs hbhjscbjh cdbjhds cbjhdcb hjc dbhj bdc hjds cbbh jdcb hjcsb bdh jcdb hj bchj bchjbcshj</p>
+        </div>
+        <div class="main__cards-item">
+          <h1>Teamplayer</h1>
+          <p class="cards__content">Ik vind het heerlijk om samen met een groep mensen een gemeenschappelijk doel te bereiken. Niets is leuker
+            dan door elkaar aan te vullen tot een resultaat te komen.</p>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
 </body>
 
 </html>

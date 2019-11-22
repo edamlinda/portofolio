@@ -1,0 +1,29 @@
+.aboutme {
+    background-color: rgb(215, 215, 236);
+// background-size: cover;
+// background-repeat: no-repeat;
+z-index: 2;
+    height: 50rem;}
+
+.main__cards-wrapper {display: flex;
+    justify-content: space-evenly;
+text-align: center;
+// position: relative;
+// top: 0;
+// left: 0;
+z-index: 2;
+padding-top: 20rem;
+
+}
+
+.main__cards-item {width: 18rem;
+height: 20rem;
+border: 0.1rem solid black;
+border-radius: 1rem;
+padding-top: 2rem;
+box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 12);
+transform: skewY(20);}
+
+.cards__content {width: 10rem;
+margin-left: 4rem;}
+

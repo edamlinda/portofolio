@@ -1,47 +1,37 @@
-body {
-  background-image: url(/compback1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-}
-
-// {background-image: url(/compback.jpg);
-// background-repeat: no-repeat;
-// background-size: cover;
-// z-index: -2;
-
-// .backgroundimage {
-//     background-image: url(/compback1.jpg);
-//     // background-size: cover;
-//     width: 100%;
-//     height: 100%;
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     z-index: -1;
-//     // background-position: 0 -300px;
-//     background-repeat: no-repeat;
-//     background-size: cover;
+// body {
+//   background-image: url(/compback1.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   z-index: -1;
+// }
 
 .header-image__heart {
-  background-image: url(/heart.png);
-  width: 50rem;
-  height: 60rem;
-  position: relative;
-  transform: scale(0.6);
-  top: 0rem;
-  left: 0rem;
+  background-image: url(/heart3.png);
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  transform: scale(1.3);
+  top: 16rem;
+  left: 13rem;
   z-index: 3;
   background-repeat: no-repeat;
 }
-
+.header-image__heart:hover {background-image: url(/heart2.png);
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  transform: scale(1.3);
+  top: 16rem;
+  left: 13rem;
+  z-index: 1;
+  background-repeat: no-repeat;}
 .name {
-  position: absolute;
+  position: fixed;
   top: 10rem;
   left: 2rem;
   font-size: 3.5rem;
   font-weight: bold;
-  transform: rotate(-33deg);
+  transform: rotate(-30deg);
 }
 
 .first_letter {
